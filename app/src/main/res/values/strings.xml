@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Oscargo</string>
+    <string name="action_config">Configuración</string>
+    <string name="action_map">Ver mi ubicación</string>
+    <string name="action_about">Acerca de OscarGo</string>
+    <string name="app_label_complete">Complete los datos</string>
+    <string name="app_edit_text_name">Nombre del chofer</string>
+    <string name="app_edit_text_name_helper">Su nombre y apellido</string>
+    <string name="app_edit_text_phone">Teléfono para comunicarnos</string>
+    <string name="app_edit_text_phone_helper">Un número para llamarlo</string>
+    <string name="app_edit_text_patent">Patente del vehículo</string>
+    <string name="app_edit_text_patent_helper">La patente del vehículo para identificarlo</string>
+    <string name="app_edit_text_capacity">Capacidad de carga</string>
+    <string name="app_edit_text_capacity_helper">Capacidad total de carga</string>
+    <string name="app_edit_text_destination">Destino</string>
+    <string name="app_edit_text_destination_helper">Saber su destino ayuda a preparar su carga</string>
+    <string name="app_edit_text_return">Regreso</string>
+    <string name="app_edit_text_return_helper">Saber dónde regresa ayuda a preparar su carga</string>
+    <string name="app_edit_text_loaded">Cargado</string>
+    <string name="app_edit_text_loaded_helper">Saber si está cargado o va vacío</string>
+    <string name="app_button_save">Guardar</string>
+</resources>
