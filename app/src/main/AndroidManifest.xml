@@ -11,6 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Oscargo"
         tools:targetApi="31">
+        <service
+            android:name=".LocationService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".LocationIntentService"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCE38VIqUpeKkR_AWvLEhXpiix_gQwFOHs" />

@@ -1,5 +1,7 @@
 package com.oscargo.app;
 
+import static java.security.AccessController.getContext;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -35,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         }else{
             switch_location_checked_text.setText("No se está enviando la localización");
         }
+
+        System.out.println("############LocationIntentService startActionFoo");
+        LocationIntentService.startActionFoo(this, "a", "b");
+
         super.onResume();
     }
 
